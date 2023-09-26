@@ -1,1 +1,1 @@
-Weather Application Using ReactJS and Weather.org API.
+Weather Application Using ReactJS and Weather.org API
