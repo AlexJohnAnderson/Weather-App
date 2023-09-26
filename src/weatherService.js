@@ -1,6 +1,6 @@
 const ROOT_OPENWEATHERMAP_URL = 'https://api.openweathermap.org/data/2.5/weather?lat='
 const ROOT_OPENMETEO_URL = 'https://api.open-meteo.com/v1/forecast?latitude='
-const API_KEY = 'bf8ab22562d03ca49ea0b1abc692a411'
+const API_KEY = ''
 
 export const getWeatherData = (lat, lon) => {
     const url = new URL(ROOT_OPENWEATHERMAP_URL + lat + '&lon=' + lon + '&appid=' + API_KEY);
