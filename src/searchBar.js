@@ -11,7 +11,7 @@ function SearchBar({ onInputValue, unitValue }) {
     setLocation(selectedOption);
     onInputValue(selectedOption.coord, selectedOption.label);
   };
-
+  
   const handleUnitChange = (newUnit) => {
     setUnit(newUnit);
     unitValue(newUnit);

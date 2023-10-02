@@ -56,7 +56,6 @@ function WeatherSummary({ weatherData, labelData, dailyTempData, hourlyForeCast,
         if (props.timestamp.substring(11, 16) === "00:00") {
             dateElement = <div className="font-bold text-l">{props.timestamp.substring(5, 10)}</div>;
         } else if (props.index === getCurrentTimeStampIndex(hourlyForeCast)) {
-            <br></br>; <div >HI</div>;
             dateElement = <div className="font-bold text-l">Now</div>;
         } else {
             dateElement = <div className="font-bold text-l">&nbsp;</div>;
@@ -124,7 +123,7 @@ function WeatherSummary({ weatherData, labelData, dailyTempData, hourlyForeCast,
     return (
         <div>
             <div className='flex items-center justify-center mt-32'>
-                <img alt="weather-icon" src={`icons/${weather[0].icon}.png`} />
+                
             </div>
 
             <div className='flex items-center justify-center mt-8'>
